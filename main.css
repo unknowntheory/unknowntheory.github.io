@@ -1,7 +1,8 @@
 /*-----Global------*/
 body{
-  background:linear-gradient(20deg, #36151E, #A5C4D4);
+  /* background:linear-gradient(20deg, #36151E, #A5C4D4); */
   /* background-color: #EDF2F4; #A5C4D4 #36151E*/
+    background-color: #fff;
 }
 p{
   text-align: center;
@@ -15,37 +16,45 @@ p{
 h1:nth-of-type(1){
   position: sticky;
   top: 49%;
-  font-size: 5em;
-  color: #EF233C;
+  font-size: 6rem;
+  color: #000;
   font-weight: 900;
+  font-family: 'Archivo Narrow', sans-serif;
 }
 h1:nth-of-type(2){
   position: sticky;
   top: 58%;
-  font-size: 5em;
-  color: #EF233C;
+  font-size: 6rem;
+  color: #000;
   font-weight: 900;
+  font-family: 'Archivo Narrow', sans-serif;
 }
 .right{
   margin-top: 199%;
 }
 .title{
   font-size: 2em;
-  color: #EF233C;
+  color: #000;
+  margin-bottom: 30px;
 }
 /*-----card css------*/
 .card-content{
   margin-bottom: 1rem;
+  font-size: 1rem;
+  font-weight: 900;
 }
 /*-----font color------*/
 .more-work{
-  color: rgb(255, 255, 255);
+  color: #000;
+  font-size: 2em;
 }
 .reach-out{
-  color: rgb(255, 255, 255);;
+  color: #000;
+  font-size: 2em;
 }
 .blurb{
-color: rgb(255, 255, 255);;
+  color: #000;
+  font-size: 2em;
 
 }
 
