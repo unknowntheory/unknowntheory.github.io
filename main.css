@@ -16,13 +16,15 @@ h1:nth-of-type(1){
   position: sticky;
   top: 49%;
   font-size: 5em;
-      color: #EF233C;
+  color: #EF233C;
+  font-weight: 900;
 }
 h1:nth-of-type(2){
   position: sticky;
   top: 58%;
   font-size: 5em;
   color: #EF233C;
+  font-weight: 900;
 }
 .right{
   margin-top: 199%;
