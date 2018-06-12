@@ -36,9 +36,9 @@ if(target==='card3'){
 }
 function image(){
   return{
-    card1:['blackbook-1-copy2.png','https://imgur.com/n1I3Hbj.png','https://imgur.com/zWrZFZH.png'],
-    card2:['incentive-1.PNG','https://imgur.com/n9NAyBp.png','https://imgur.com/55E5WMA.png'],
-    card3:['https://imgur.com/e5YJxfZ.png','https://imgur.com/Fc4lgqK.png','https://imgur.com/GcJ0UuV.png'],
+    card1:['https://imgur.com/n1I3Hbj.png','https://imgur.com/zWrZFZH.png','blackbook-1-copy2.png'],
+    card2:['https://imgur.com/n9NAyBp.png','https://imgur.com/55E5WMA.png','incentive-1.PNG',],
+    card3:['https://imgur.com/Fc4lgqK.png','https://imgur.com/GcJ0UuV.png','https://imgur.com/e5YJxfZ.png'],
   }
 }
 card1.addEventListener('click',handleImageClick);
