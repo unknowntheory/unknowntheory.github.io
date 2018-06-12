@@ -1,0 +1,76 @@
+/*-----Global------*/
+body{
+  background:linear-gradient(20deg, #36151E, #A5C4D4);
+  /* background-color: #EDF2F4; #A5C4D4 #36151E*/
+}
+p{
+  text-align: center;
+}
+/*-----body css------*/
+.container{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  font-family: 'Roboto', sans-serif;
+}
+h1:nth-of-type(1){
+  position: sticky;
+  top: 49%;
+  font-size: 5em;
+      color: #EF233C;
+}
+h1:nth-of-type(2){
+  position: sticky;
+  top: 58%;
+  font-size: 5em;
+  color: #EF233C;
+}
+.right{
+  margin-top: 199%;
+}
+.title{
+  font-size: 2em;
+  color: #EF233C;
+}
+/*-----card css------*/
+.card-content{
+  margin-bottom: 1rem;
+}
+/*-----font color------*/
+.more-work{
+  color: rgb(255, 255, 255);
+}
+.reach-out{
+  color: rgb(204, 204, 204);
+}
+.blurb{
+color:rgb(200, 200, 200);
+
+}
+
+@media screen and (max-width: 480px) {
+    .container{
+      display: grid;
+      grid-template-columns: 100%;
+      font-family: 'Roboto', sans-serif;
+    }
+    .right{
+      margin-top: 82%;
+    }
+    .left{
+      height: 500px;}
+    }
+    h1:nth-of-type(1){
+      position: sticky;
+      top: 40%;
+    }
+    h1:nth-of-type(2){
+      position: sticky;
+      top: 53%;
+    }
+}
+
+
+
+
+ /* need to do
+ add transistion to images
