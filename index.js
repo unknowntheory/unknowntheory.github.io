@@ -51,6 +51,6 @@ function image() {
     ]
   };
 }
-// card1.addEventListener('click',handleImageClick);
+card1.addEventListener('click',handleImageClick);
 card2.addEventListener("click", handleImageClick);
-// card3.addEventListener('click',handleImageClick);
+card3.addEventListener('click',handleImageClick);

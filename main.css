@@ -29,14 +29,23 @@ h1:nth-of-type(2){
   font-weight: 900;
   font-family: 'Roboto', sans-serif;
 }
+.left-contact{
+  position: sticky;
+  top: 65%;
+  font-size: 2rem;
+  color: #000;
+  font-weight: 900;
+  font-family: 'Roboto', sans-serif;
+}
 .right{
-  margin-top: 80%;
+  margin-top: 49%;
 }
 .title{
-  font-size: 2em;
+  font-size: 50px;
   color: #000;
   margin-bottom: 30px;
 }
+
 /*-----card css------*/
 .card-content{
   margin-bottom: 1rem;
